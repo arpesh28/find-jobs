@@ -1,0 +1,39 @@
+img {
+  width: 15px;
+  height: 15px;
+}
+.card_container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.description span {
+  color: grey;
+}
+.button {
+  width: 100px;
+  background-color: #fff;
+  border: 1px solid 26bf94;
+  a {
+    color: 26bf94;
+  }
+  margin-right: 10px;
+}
+.link {
+  color: #2c2c2c;
+}
+.job_title {
+  font-size: 20px;
+  font-weight: 500;
+}
+.ml-20 {
+  margin-left: 20px;
+}
+.job_type {
+  background-color: #26bf942e;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.description {
+  margin-top: 10px;
+}

@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  color: black;
+  > div {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto 0px;
+  }
+}
+a {
+  cursor: pointer;
+}
+.filter_container {
+  background-color: #e8e8e8;
+  width: 100%;
+  padding: 20px 0px;
+}
+.drop_values {
+  margin-top: 20px;
+  background-color: #e8e8e8;
+  width: 100%;
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  .filters {
+    display: flex;
+    justify-content: flex-start;
+  }
+  p {
+    background-color: #fff;
+    color: gray;
+    // max-width: 100px;
+    // width: 100%;
+    // text-align: center;
+    padding: 10px;
+    margin: 0 10px;
+    span {
+      margin-left: 10px;
+    }
+  }
+  .clear_all {
+    // float: right;
+    cursor: pointer;
+    p {
+      color: #26bf94;
+      background-color: transparent;
+    }
+  }
+}
+.dropdown_container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.function_container {
+  h2 {
+    margin-bottom: 40px;
+  }
+  margin-bottom: 40px;
+}
+.button {
+  border: 1px solid #26bf94;
+  color: #26bf94;
+  padding: 10px;
+  border-radius: 30px;
+  width: 150px;
+  cursor: pointer;
+  a {
+    color: #26bf94;
+    text-decoration: none;
+  }
+}
+.link {
+  text-decoration: none;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.section_heading {
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 35px 0 0px 0;
+    border-bottom: 3px solid #26bf94;
+    width: 10%;
+  }
+}
+.body_section {
+  display: flex;
+  justify-content: space-between;
+
+  .main_section {
+    width: 60%;
+    white-space: pre-line;
+    p {
+      font-size: 18px;
+      line-height: 25px;
+    }
+    ul li {
+      margin-bottom: 10px;
+    }
+  }
+  .sidebar_section {
+    width: 35%;
+    .title_job {
+      margin-left: 10px;
+    }
+    .other_jobs_container {
+      background: #edf4ff;
+      border-radius: 5px;
+      padding: 30px 0px 30px 30px;
+    }
+    .social_container {
+      padding: 30px 0px 30px 30px;
+      .icons {
+        display: flex;
+        div {
+          display: flex;
+          width: 40px;
+          height: 40px;
+          border-radius: 100%;
+          border: 1px solid;
+          justify-content: center;
+          align-items: center;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}
+.header_section {
+  .button {
+    background-color: skyblue;
+    color: #fff;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    width: 150px;
+    cursor: pointer;
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}
+.drop_values .filters span img {
+  width: 10px;
+  height: 10px;
+  margin-left: 10px;
+}
+.drop_values .filters span:hover {
+  cursor: pointer;
+}
+.social-icons {
+  width: 30px;
+  height: 30px;
+}
